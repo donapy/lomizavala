@@ -1,0 +1,14 @@
+Propuesta tentativa de proyecto "Puesto de Comida y bebida"
+- Pagina Principal con detalles del puesto de comida/bebida (Menu, Ubicacion, Contacto)
+- Login de usuario
+- CRUD usuario (los usuarios seran creados y/o alterados solamente por el usuario con rol(*) administrador)
+- Pagina Principal para el Usuario logueado con los accesos dependiendo de su rol(*)
+- CRUD de cliente y proveedor
+- CRUD de productos
+- CRUD de ingredientes
+- CRUD de sucursal
+- CRUD de venta (Enfoque Principal)
+- CRUD de compra (tentativo)
+- CRUD de salario (tentativo)
+- CRUD de timbrado (tentativo)
+- CR de auditoria (tentativo)
