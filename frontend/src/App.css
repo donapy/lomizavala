@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  padding: 0 10%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(195, 225, 252);
+  padding: 0px 25px;
+}
+
+#img-logo-header {
+  width: 150px;
+}
+
+.btn-header {
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+#panel-venta {
+  display: flex;
+  padding-top: 20px;
+  flex: 8;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+#left-panel-venta {
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: black;
+  flex: 3;
+}
+
+#right-panel-venta {
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: black;
+  flex: 5;
+}
+.div-ordenes {
+  margin-bottom: 20px;
+  padding: 10px 0px 25px 0px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.div-ordenes-items {
+  /* border-style: solid; */
+  /* border-radius: 20px; */
+  /* border-color: coral; */
+  padding: 0px 0px 25px 0px;
+}
+
+.btn-azul {
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 15px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 9px 35px;
+  text-decoration: none;
+}
+
+.btn-azul:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+.btn-azul:active {
+  position: relative;
+  top: 1px;
+}
